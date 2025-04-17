@@ -1,0 +1,5 @@
+fastapi
+unstructured[all-docs]
+uvicorn
+python-dotenv
+websocket
