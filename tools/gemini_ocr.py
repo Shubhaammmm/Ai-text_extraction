@@ -5,7 +5,7 @@ from pdf2image import convert_from_path
 import google.generativeai as genai
 
 # Configure Gemini API
-os.environ['GEMINI_AI_API_KEY'] = "AIzaSyCJfju8xoZBxdQ8ptXhdMN4q16tTTt7-ag"
+os.environ['GEMINI_AI_API_KEY'] = ""
 API_KEY = os.environ['GEMINI_AI_API_KEY']
 genai.configure(api_key=API_KEY)
 
